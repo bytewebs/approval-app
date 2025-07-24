@@ -226,7 +226,7 @@ import json
 
 # Page config
 st.set_page_config(
-    page_title="Podcast Approval System",
+    page_title="Podcast Approval System.",
     page_icon="🎙️",
     layout="centered",
     initial_sidebar_state="collapsed"
