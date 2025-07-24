@@ -77,7 +77,7 @@ def process_approval(token):
             return False, "Invalid token format"
         
         # Get backend URL from token or use environment variable
-        backend_url = token_data.get('backend_url', os.getenv('BACKEND_API_URL', 'http://localhost:5050'))
+        backend_url = "https://c15ccbaa9f46.ngrok-free.app"
         
         # Remove any trailing slashes
         backend_url = backend_url.rstrip('/')
